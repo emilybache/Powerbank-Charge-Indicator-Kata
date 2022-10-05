@@ -7,7 +7,6 @@ This kata is about implementing the logic to decide which of those LEDs to light
  
 
 | # LEDs lighting up | % min power | % max power |
-|
 |--------------------|-------------|-------------|
 | 0                  | 0           | 5           |
 | 1                  | 25          | 45          |
