@@ -16,3 +16,7 @@ This kata is about implementing the logic to decide which of those LEDs to light
 The starting code contains an interface to the hardware. It will let you switch each LED on and off. Your task is to implement a function 'update_charge_status' (or updateChargeStatus or similar) which takes an integer argument for the current percent charge in the powerbank, and should update the LEDs using the hardware interface.
 
 The implementation of the LED hardware interface can only run on the real hardware, (and it is not included in this repo), so you will need to provide another implementation for your tests to use.
+
+Acknowledgements
+----------------
+The idea for this kata came from [this video](https://vimeo.com/256590562) by Matt Chernosky.
