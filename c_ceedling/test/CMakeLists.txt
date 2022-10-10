@@ -12,7 +12,6 @@ set(UNITY_EXTENSION_FIXTURE ON CACHE BOOL "Enable Unity Fixture Extension")
 set(UNITY_EXTENSION_MEMORY  ON CACHE BOOL "Enable Unity Memory Extension")
 FetchContent_MakeAvailable(Unity)
 
-#target_sources(${TEST_NAME} PRIVATE ${SOURCE_FILES})
 add_executable(${TEST_NAME} test_powerbank.c)
 target_link_libraries(${TEST_NAME} src unity)
 add_test(test_unity ${TEST_NAME})
